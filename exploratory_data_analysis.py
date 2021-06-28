@@ -1,4 +1,3 @@
-import matplotlib.pyplot as plt
 import pandas as pd
 import streamlit as st
 
@@ -92,16 +91,4 @@ The language used for this project was python. The packages used were pandas, st
 ''')
 
 
-st.markdown("### BIO")
-st.markdown("#### Eli Rivera, DCS, MBA")
-  #Exploratory Data Analysis
-LOGO_IMAGE = '/Users/eli/documents/linkedin_image.jpg'
-st.image(LOGO_IMAGE)
-st.markdown('''
-  Dr. Rivera's research interests include machine learning, data science, security, automation, and databases. He has Bachelor degrees in
-  Criminal Justice, Homeland Security & Emergency Management, and Accounting. He has an MBA from Western Governors University and a Doctorate 
-  in Computer Science, concentration in CyberSecurity and Information Assurance from Colorado Technical University. He also holds Microsoft Certified: Azure Data Scientist Associate, Microsoft Certified: Azure AI Engineer, Comptia: Project + and Tensorflow Developer certificates.
-  His recent publication 'Countering Persistent Artificial Intelligence Attacks, A Qualitative Study' was published in ProQuest in 2021.
-  
-''')
 
